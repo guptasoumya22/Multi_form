@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    max-width: 100%;
+  }
+  
+  .lefts {
+    flex: 1;
+  }
+  
+  .right {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items:right;
+  }
+.img{
+    height:80%;
+}
+  .info {
+    margin-bottom: 20px;
+  }
+
+  .info h2{
+    font-weight: bold;
+  font-size: 24px; /* Adjust font size as needed */
+  margin-bottom: 20px;
+  }

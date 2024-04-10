@@ -1,0 +1,62 @@
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  height: 100vh;
+}
+
+.cent {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: black; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.info {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+} */
+/* sixth.css */
+/* .containe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+
+.cent {
+  text-align: center;
+  padding-top: 20px; 
+}
+
+.inf {
+  text-align: center;
+}
+
+.cent img {
+  width: 200px; 
+  height: auto; 
+} */
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infos {
+  text-align: center;
+}
+
+.infos img {
+  width: 100px; /* Adjust the size of the circle image as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Adjust the spacing between the image and text */
+}

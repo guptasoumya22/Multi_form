@@ -1,0 +1,33 @@
+.options-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .option-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px; /* Adjust width as needed */
+    height: 120px; /* Adjust height as needed */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .option-box:hover {
+    background-color: #f0f0f0; /* Background color on hover */
+  }
+  
+  .option-box.selected {
+    border-color: #007bff; /* Border color when selected */
+  }
+  
+  .option-box.selected:hover {
+    background-color: #cceeff; /* Background color on hover when selected */
+  }
+  
+  .option-box span {
+    margin-top: 8px;
+  }
+  

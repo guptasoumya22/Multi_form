@@ -1,0 +1,52 @@
+/* stepPage.css */
+.step-page {
+    text-align: center;
+  }
+  
+  
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .option-boxs {
+    width: 100%; /* Adjust the width here */
+    max-width: 600px; /* Set maximum width */
+    max-height: 35px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: border-color 0.3s;
+  }
+  
+  .option-boxs:hover {
+    border-color: #999;
+  }
+  
+  .option-boxs.selected {
+    border-color: goldenrod;
+  }
+  
+  .details_first {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+  }
+  
+  .icon_first {
+    font-size: 18px;
+  }
+  
+  .text_first {
+    font-weight: bold;
+  }
+  
+  .description {
+    color: grey;
+    margin-left: 5px
+    /* flex-grow: 1; */
+  }
+  

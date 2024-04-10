@@ -1,0 +1,50 @@
+.form-page {
+    text-align: center;
+    margin: 25px;
+  }
+  
+  .optionss {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+ .h2{
+    margin-top: 0;
+ }
+  .option-box {
+    width: 200px; /* Increase box width */
+    height: 150px; /* Increase box height */
+    border: 2px solid #ccc;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option-box:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* .option-box.selected {
+    background-color: #007bff;
+    color: #fff;
+  } */
+  .option-box.selected {
+    border-color: goldenrod;
+  }
+
+  .option-box .description {
+    font-weight: bold;
+    font-size: small;
+    margin-top: 8%;
+    color: black;
+  }
+  
+  .option-box .level {
+    color: #808080;
+    margin-top: 3%;
+  }
+  
