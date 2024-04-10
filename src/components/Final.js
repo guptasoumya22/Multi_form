@@ -6,7 +6,6 @@ import Fourth from "./Fourth";
 import Fifth from "./Fifth";
 import Sixth from "./Sixth";
 import Seventh from "./Seventh";
-import { Link } from "react-router-dom";
 
 function Final() {
   const [page, setPage] = useState(0);
@@ -59,11 +58,11 @@ function Final() {
               width:
                 page === 0
                   ? "20%"
-                  : page == 1
+                  : page === 1
                   ? "40%"
-                  : page == 2
+                  : page === 2
                   ? "60%"
-                  : page == 3
+                  : page === 3
                   ? "80%"
                   : "100%"
             }}
